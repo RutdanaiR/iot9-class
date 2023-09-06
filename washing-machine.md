@@ -102,14 +102,14 @@ payload: {
 }
 
 ## TEMPERATUREREACHED
-topic:v1cdti/app/get/6310301028/model-01/sn-01
+topic:v1cdti/app/set/6310301028/model-01/sn-01
 payload: {
-    "action"    :   "get",
+    "action"    :   "set",
     "project"   :   "6310301028",
     "model"     :   "model-01",
     "serial"    :   "sn-01",
     "name"      :   "OP_Status_TemperatureRearched",
-    "value"     :   "TemperatureRearched"
+    "value"     :"TemperatureRearched"
 }
 
 
@@ -164,5 +164,5 @@ payload: {
     "model"     :   "model-01",
     "serial"    :   "sn-01",
     "name"      :   "Fault_Status_Faultcleared",
-    "value"     :   "Ready"
+    "value"     : "Faultcleared"
 }
