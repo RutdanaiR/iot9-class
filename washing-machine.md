@@ -153,7 +153,7 @@ payload: {
     "model"     :   "model-01",
     "serial"    :   "sn-01",
     "name"      :   "Fault_Status_Motorfailure",
-    "value"     :   "MotorFailure"
+    "value"     :   "FAULT"
 }
 
 ## FAULTCLEARED
